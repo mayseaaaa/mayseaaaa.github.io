@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link rel="stylesheet" href="cbb.css" />
+  </head>
+  <body>
+    <!-- === HEADER === -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="ccb.html" class="nav__logo">m<span>a</span>yy</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ccb.html">Web Batik</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Let's Talk</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Welcome to my Portfolio</span>
+            <h1 class="home__title">Hi, I'm May Syesa <span>a Web Developer,</span> based in INDONESIA.</h1>
+          </div>
+
+          <img src="img/mayphoto.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="img/photo_about.jpg" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">About Me</h2>
+
+            <p class="about__description">
+              Saya adalah siswi dari jurusan Pengembangan Perangkat Lunak dan Gim (PPLG) di SMK Negeri 5 Malang. Saya memiliki ketertarikan dalam pembuatan aplikasi web dan mobile yang bermanfaat. Dengan dasar pengetahuan pemrograman yang
+              kuat dan kreativitas dalam desain, saya berusaha menciptakan solusi teknologi yang inovatif. Terkadang saya mencari tantangan baru untuk mengasah kemampuan teknis dan problem solving saya.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills">Main Skills</span>
+              <span class="tabs__btn" data-target="#experience">Experience</span>
+              <span class="tabs__btn" data-target="#education">Education</span>
+              <span class="tabs__btn" data-target="#interesting">Interesting To</span>
+            </div>
+
+            <div class="tabs__content">
+              <!-- Main Skills Tab -->
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Menguasai dasar-dasar pemrograman</span> - dalam bahasa pemrograman
+                    <span>HTML, CSS, C++, PYTHON, PHP, dan JS.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Dapat menyesuaikan tampilan UI agar mobile-friendly</span> dan
+                    <span>memahami sintaks dasar, variabel, tipe data, dan operator.</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Experience Tab -->
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Membuat Online Marketplace</span> - PHP, HTML, CSS | 2024<br />
+                    <span>Dibangun dengan fitur cart dan payment gateway.</span><br />
+                    <span>Tersedia untuk seller & buyer.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Membuat Food Delivery App</span> - HTML, CSS, PHP | 2024<br />
+                    <span>Real-time order tracking.</span><br />
+                    <span>Dapat menghitung otomatis harga yang harus dibayar pelanggan</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Membuat Ball Game</span> - HTML, CSS, JS | 2024<br />
+                    <span>Dibuat untuk melatih sensor motorik pada anak.</span><br />
+                    <span>Dapat digunakan untuk menghafal tata letak keyboard</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Education Tab -->
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>SMK Negeri 5 Malang</span> - Jurusan PPLG | 2024–Sekarang.<br />
+                    <span>Belajar pemrograman web dan database.</span><br />
+                    <span>Proyek: Aplikasi kasir, Food delivery APP, dan Inventory Marketplace</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Game Development Bootcamp</span> - Inntexia Academy | 2025<br />
+                    <span>Membuat game platformer 2D.</span>
+                  </p>
+                </div>
+              </div>
+
+              <!-- Interest tab -->
+              <div class="tabs__item" data-content id="interesting">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Membaca</span> - <br />
+                    <span>Saya suka membaca, apalagi membaca novel</span><br />
+                    <span>Terkadang saya mambaca teks atau cerpen yang ada pada buku paket.</span>
+                  </p>
+                  <p class="tabs__description">
+                    <span>Mendengarkan Lagu</span> - <br />
+                    <span>Saya tertarik pada lagu KPop dan lagu Inggris.</span><br />
+                    <span>Saya menyukai lagu dari grup TXT(Tomorrow W Together).</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="services section" id="services">
+        <h2 class="section__title">My Projects</h2>
+        <p class="section__description">There are many projects i made from 2024 untill now.</p>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="uil uil-shopping-bag services__icon"></i>
+
+            <h3 class="services__title">Online Marketplace</h3>
+            <p class="services__description">Aplikasi e-commerce dengan fitur cart dan payment gateway yang memungkinkan transaksi antara seller (penjual) dan buyer (pembeli). Dibangun menggunakan PHP, HTML, dan CSS.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-crockery services__icon"></i>
+
+            <h3 class="services__title">Food Delivery App</h3>
+            <p class="services__description">Aplikasi pesan antar makanan dengan fitur real-time order tracking dan perhitungan otomatis total harga. Menggunakan teknologi HTML, CSS, dan PHP.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-baseball-ball services__icon"></i>
+
+            <h3 class="services__title">Ball Game</h3>
+            <p class="services__description">Game interaktif berbasis web untuk melatih sensor motorik anak dan membantu menghafal tata letak keyboard. Dikembangkan dengan HTML, CSS, dan JavaScript.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-calculator-alt services__icon"></i>
+
+            <h3 class="services__title">Simple Calculator</h3>
+            <p class="services__description">Kalkulator digital dasar yang dapat melakukan operasi matematika sederhana seperti penjumlahan, pengurangan, perkalian, dan pembagian.</p>
+          </div>
+
+          <div class="services__item">
+            <i class="uil uil-baby-carriage services__icon"></i>
+
+            <h3 class="services__title">Doll Sales Website</h3>
+            <p class="services__description">Website penjualan boneka dengan tampilan produk, detail item, dan sistem pemesanan online. Fokus pada presentasi produk yang menarik.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Contact Me</h2>
+
+            <p class="contact__description">
+              Contact me if you want to ask more about me. Connect with me via phone : <a href="+6285922965462"> 0859-2296-5462</a> or email :
+              <a href="mailto:meyr4a@gmail.com">meyr4a@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input type="text" name="name" placeholder="Your Name" class="contact__input" id="contact-name" />
+              </div>
+
+              <div class="contact__form-input">
+                <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email" />
+              </div>
+
+              <div class="contact__form-input">
+                <input type="text" name="subject" placeholder="Write a Subject" class="contact__input" id="contact-subject" />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea name="message" id="contact-message" class="contact__input textarea" placeholder="Your Message"></textarea>
+              </div>
+
+              <input type="submit" value="Submit" class="btn" />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="img/contact.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="cbb.html" class="footer__logo">m<span>a</span>yy</a>
+
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/maayesaraa?igsh=OGhsMDZvM2drMHI3" target="_blank" class="footer__social-link">
+            <i class="uil uil-instagram"></i>
+          </a>
+
+          <a href="https://x.com/rrayesaa" target="_blank" class="footer__social-link">
+            <i class="uil uil-twitter"></i>
+          </a>
+
+          <a href="https://github.com/mayseaaa" target="_blank" class="footer__social-link">
+            <i class="uil uil-github"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2025. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- EMAIL JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="cbb.js"></script>
+  </body>
+</html>
